@@ -1,0 +1,19 @@
+{
+  "name": "dev-terminal-marketplace",
+  "owner": {
+    "name": "Parker Hancock"
+  },
+  "metadata": {
+    "description": "Terminal/PTY automation with persistent sessions",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "dev-terminal",
+      "source": "./",
+      "description": "Terminal/PTY automation with persistent sessions. Run TUI apps, send keystrokes, capture screens.",
+      "strict": false,
+      "skills": ["./skills/dev-terminal"]
+    }
+  ]
+}
