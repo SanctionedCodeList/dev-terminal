@@ -1,6 +1,7 @@
 ---
 name: dev-terminal
 description: Terminal/PTY automation with persistent sessions. Use to run and interact with TUI applications, debug terminal apps, automate CLI workflows, or any terminal interaction. Trigger phrases include "run the TUI", "start the app", "debug the terminal", "interact with", "send keys", "what's on screen".
+disable-model-invocation: true
 ---
 
 # Dev Terminal Skill
